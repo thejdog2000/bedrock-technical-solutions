@@ -29,7 +29,7 @@ function makeLineEl(kind, hi) {
 function typeChars(text, el, cb) {
     let i = 0;
     (function tick() {
-        if (i < text.length) { el.textContent += text[i++]; setTimeout(tick, 36 + Math.random() * 18); }
+        if (i < text.length) { el.textContent += text[i++]; setTimeout(tick, 14 + Math.random() * 8); }
         else cb();
     })();
 }

@@ -66,7 +66,7 @@ nav {
 
 .terminal {
     background: rgba(14,15,30,0.95); border: 1px solid var(--border); border-radius: 10px;
-    overflow: hidden; font-family: var(--mono); text-align: left; margin-bottom: 2.5rem;
+    overflow: hidden; font-family: var(--mono); text-align: left; margin-bottom: 2rem;
     box-shadow: 0 24px 64px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.04);
 }
 .term-bar { display: flex; align-items: center; gap: .45rem; padding: .65rem 1rem; background: rgba(255,255,255,.03); border-bottom: 1px solid var(--border); }
@@ -82,7 +82,7 @@ nav {
 .cursor { display: inline-block; width: 7px; height: .9em; background: var(--accent); vertical-align: text-bottom; margin-left: 1px; animation: blink 1.1s step-end infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
-.hero-name { font-size: clamp(2.4rem, 5.5vw, 4.2rem); font-weight: 700; letter-spacing: -.025em; line-height: 1.1; margin-bottom: .9rem; }
+.hero-name { font-size: clamp(2.4rem, 5.5vw, 4.2rem); font-weight: 700; letter-spacing: -.025em; line-height: 1.1; margin-bottom: .9rem; margin-top: 0; }
 .hero-name em { font-style: normal; color: var(--accent); }
 .hero-tag { font-family: var(--mono); font-size: .9rem; color: var(--text-2); letter-spacing: .05em; margin-bottom: 2.2rem; }
 .hero-tag .sep { color: var(--text-muted); margin: 0 .6rem; }
